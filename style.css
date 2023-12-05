@@ -25,4 +25,5 @@
     object-fit: cover;
     transition: all 2s;
     rotate: 360deg;
+    box-shadow: 20px 20px 20px 10px black ;
 }
