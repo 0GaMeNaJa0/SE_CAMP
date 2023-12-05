@@ -1,0 +1,28 @@
+*{
+    margin:0;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(88, 90, 88);
+    text-align: center;
+    border: 5px dashed rgb(147, 250, 147);
+    margin: 50px 25px;
+    border-radius: 50%;
+    
+}
+
+.text{
+    font-size:20px;
+    margin-top:45.5%;
+    margin-bottom:50%;
+}
+
+.box:hover{
+    background:url(ring-eye.png);  
+    background-size:cover;
+    object-fit: cover;
+    transition: all 2s;
+    rotate: 360deg;
+}
