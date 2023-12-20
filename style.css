@@ -9,7 +9,6 @@
     text-align: center;
     border: 5px dashed rgb(147, 250, 147);
     margin: 50px 25px;
-    border-radius: 50%;
     
 }
 
@@ -20,6 +19,7 @@
 }
 
 .box:hover{
+    border-radius: 50%;
     background:url(ring-eye.png);  
     background-size:cover;
     object-fit: cover;
