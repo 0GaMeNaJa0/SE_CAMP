@@ -1,29 +1,48 @@
-*{
-    margin:0;
+* {
+  margin: 0;
 }
-.box{
-    width: 400px;
-    height: 400px;
-    color: rgb(255, 255, 255);
-    background-color:rgb(88, 90, 88);
-    text-align: center;
-    border: 5px dashed rgb(147, 250, 147);
-    margin: 50px 25px;
-    border-radius: 50%;
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/91/e6/d8/91e6d870a4a18ffc2d302150a44c9401.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+td{
+    font-size:30px;
+}
+
+
+table {
+  width: 150px;
+  height: 265px;
+  overflow: scroll;
+  display: block;
+}
+
+
+div {
     
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
-.text{
-    font-size:20px;
-    margin-top:45.5%;
-    margin-bottom:50%;
+table::-webkit-scrollbar {
+  width: 12px;
 }
 
-.box:hover{
-    background:url(ring-eye.png);  
-    background-size:cover;
-    object-fit: cover;
-    transition: all 2s;
-    rotate: 360deg;
+table::-webkit-scrollbar-thumb {
+  background-color:gray;
+  border-radius: 6px;
+}
 
+table::-webkit-scrollbar-track {
+  background-color: transparent;
 }
