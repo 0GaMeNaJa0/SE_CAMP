@@ -7,8 +7,11 @@
 
 <body>
     <?php $multi_x = 3; ?>
-    <div>
-        <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+    <div class="container">
+        <div class="label">
+            <h1>ตารางสูตร</h1>
+            <h1>คูณแม่ <?php echo $multi_x ?></h1>
+        </div>
 
         <table>
             <tbody>
