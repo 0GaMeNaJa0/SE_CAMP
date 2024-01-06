@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{{ url('assets/plugins/fontawesome-free/css/all.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ url('assets/dist/css/adminlte.min.css') }}">
+
+    <link rel="stylesheet" href="{{ url('assets/form.css') }}">
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -244,8 +246,8 @@
         </aside>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-            @yield('content')
+        <div class="content-wrapper d-flex justify-content-center align-items-center">
+            @yield('form')
         </div>
         <!-- /.content-wrapper -->
 

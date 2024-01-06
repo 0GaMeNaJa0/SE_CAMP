@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+form input,form textarea,form select{
+    padding:8px 10px 8px 10px;
+    border:1px solid #ced4da;
+    border-radius: .25rem;
+    font-weight: 500;
+    color: #495057;
+}
+
+form input[type="file"] {
+    display: none;
+}
+
+form .file-browse{
+    padding:8px 10px 8px 10px;
+    border:1px solid #ced4da;
+    border-radius: .25rem;
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-group{
+    padding-bottom: 3px;
+}
