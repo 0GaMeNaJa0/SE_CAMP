@@ -2,7 +2,7 @@
 
 @section('title', 'Homepage')
 
-@section('form')
+@section('content')
 <form class="w-50">
     <div class="w-auto p-5">
         <div class="d-flex flex-column form-group">
