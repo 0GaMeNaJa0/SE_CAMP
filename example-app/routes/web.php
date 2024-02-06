@@ -40,7 +40,7 @@ Route::middleware('auth')->group(function(){
 Route::get('/form', [MyController::class, 'index']);
 
 Route::get('/', function () {
-    return view('login'); // welcome.blade.php
+    return view('welcome'); // welcome.blade.php
 });
 
 // use Illuminate\Http\Request;

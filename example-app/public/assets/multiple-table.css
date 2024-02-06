@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+* {
+  margin: 0;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/91/e6/d8/91e6d870a4a18ffc2d302150a44c9401.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+td{
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+table {
+  width: 150px;
+  height: 265px;
+  overflow: scroll;
+  display: block;
+  margin-left:20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.label{
+    margin-bottom: 20px;
+}
+
+.container {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+table::-webkit-scrollbar {
+  width: 12px;
+}
+
+table::-webkit-scrollbar-thumb {
+  background-color:gray;
+  border-radius: 6px;
+}
+
+table::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+table::-webkit-scrollbar-thumb:active{
+    background-color: red;
+    
+}
