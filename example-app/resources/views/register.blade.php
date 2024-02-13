@@ -29,6 +29,7 @@
 
                 <form action="{{ url('/register') }}" method="post">
                     @csrf
+                    {{ $errors->first('name') }}
                     <div class="input-group mb-3">
                         <input type="text" name="name" class="form-control" placeholder="Full name">
                         <div class="input-group-append">
@@ -58,6 +59,7 @@
                             </div>
                         </div>
                     </div>
+                    {{ $errors->first('password_confirmation') }}
                     <div class="input-group mb-3">
                         <input type="password" name="password_confirmation"
                             class="form-control <?php if($errors->has('password')){ ?>is-invalid<?php } ?>"
